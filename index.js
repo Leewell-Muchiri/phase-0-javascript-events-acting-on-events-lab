@@ -25,8 +25,8 @@ document.addEventListener("keydown", function (event) {
     }
   });
   function moveDodgerRight() {
-	var rightvalue = dodger.style.left.replace("px", "");
-	var rightInt = parseInt(rightvalue, 10);
+	var rightside = dodger.style.left.replace("px", "");
+	var rightInt = parseInt(rightside, 10);
 
 	if (rightInt < 360) {
 		dodger.style.left = `${rightInt + 1}px`;
